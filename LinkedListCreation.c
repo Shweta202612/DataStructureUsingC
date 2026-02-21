@@ -27,6 +27,7 @@ int main(){
 	
 	return 0;
 }
+//This is for Travers and display LinkedList Elements
 listTraversal(struct Node *ptr){
 	while(ptr!=NULL){
 		int i=1;
@@ -35,3 +36,4 @@ listTraversal(struct Node *ptr){
 		i++;
 		ptr=ptr->next;
 	}}
+
